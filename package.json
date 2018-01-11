@@ -1,0 +1,8 @@
+{
+  "name": "seekable-timer",
+  "version": "1.0.0",
+  "description": "A Timer for Javascript that you can seek. It also supports all the onTick, onStart, onStop handlers and tries to be as accurate as it can.",
+  "main": "index.js",
+  "author": "atulanand94@gmail.com",
+  "license": "MIT"
+}

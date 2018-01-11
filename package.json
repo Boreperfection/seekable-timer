@@ -4,5 +4,6 @@
   "description": "A Timer for Javascript that you can seek. It also supports all the onTick, onStart, onStop handlers and tries to be as accurate as it can.",
   "main": "index.js",
   "author": "atulanand94@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "https://github.com/master-atul/seekable-timer.git"
 }

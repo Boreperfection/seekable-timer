@@ -40,31 +40,36 @@ Functions:
 Difference between stop and pause is that pause will not reset the timer offset whereas stop will reset the timer itself.
 - `timer.seekBy(milliseconds)` = seeks the timers by the amount of milliseconds passed. You can pass a positive value to seek to future. Or you can pass a negative value to seek to past.
 
-- ```
+- 
+```
 timer.setOnTickHandler((timeoffset)=> {
 
   })
 ```
 sets an on onTickHandler that is called on every tick you specified on the initialisation of timer.
 
-- ```
+- 
+```
 timer.setOnStartHandler((timeoffset)=> {
 
   })
 ```
 sets an on onStartHandler that is called on `timer.start()` of timer.
 
-- ```
+- 
+```
 timer.setOnPauseHandler((timeoffset)=> {
     // timeOffset is calculated from the time when we did start.
   })
 ```
-- ```
+- 
+```
 timer.setOnStopHandler((timeoffset)=> {
     // timeOffset is calculated from the time when we did start.
   })
 ```
-- ```
+- 
+```
 timer.setOnSeekHandler((seekedMilliseconds)=> {
 
   })
